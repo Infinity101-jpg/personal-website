@@ -1,0 +1,10 @@
+<script>
+  (function () {
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (width < 1000) {
+      window.location.replace('mobi.html');
+    } else {
+      window.location.replace('desk.html');
+    }
+  })();
+</script>
